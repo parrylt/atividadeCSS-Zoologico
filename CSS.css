@@ -1,0 +1,115 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+}
+nav
+{
+    background-image: url("Imagens/bg02.jpg"); 
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    border-bottom: 10px double ivory;
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-size: 20pt;
+    color: wheat;
+    z-index: 5;
+}
+main
+{
+    background-image: url(Imagens/bg01.png);
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+    top: 60px;
+    position: absolute;
+    z-index: 1;
+}
+h1
+{
+    background-image: url(imagens/bg02.jpg);
+    color: olive;
+    width: 95%;
+    border: 4px solid olive;
+    margin: 10px auto;
+    font-size: 48px;
+}
+p
+{
+    color: brown;
+    width: 90%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 20px auto;
+}
+img
+{
+    border: 3px dashed burlywood;
+}
+figure
+{
+    float: left;
+    width: 40%;
+    left: 0;
+    position: absolute;
+}
+aside
+{
+    float: right;
+    width: 60%;
+    right: 0;
+    position: absolute;
+    margin-top: 5px;
+}
+form
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    border: 5px solid olive;
+    margin: 10px auto;
+}
+form p
+{
+    font-size: 12pt;
+}
+input, select, textarea
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: brown;
+    font-weight: bold;
+}
+table
+{
+    margin: auto;
+    color: darkgreen;
+}
+td, th
+{
+    border: 2px groove tan;
+}
+th
+{
+    background-image: url(imagens/bg02.jpg);
+}
+a
+{
+   text-decoration: none; 
+   color: ivory;
+}
+a:hover
+{
+    font-weight: bold;
+    color: olive;
+}
+input:focus, select:focus, textarea:focus
+{
+    background-color: orange;
+}
+img:hover
+{
+    border-color: olive;
+}
